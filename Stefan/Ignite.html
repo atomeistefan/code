@@ -1,0 +1,73 @@
+Here's a basic HTML/CSS code for a GoHighLevel funnel based on that page style, with red replacing yellow:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ignite Entrepreneurs</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Arial', sans-serif; background: #0a0a0a; color: #fff; }
+    .hero { padding: 60px 20px; text-align: center; background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%); }
+    .hero h1 { font-size: 42px; margin-bottom: 20px; line-height: 1.2; }
+    .highlight { color: #e63946; } /* RED accent */
+    .subheadline { font-size: 20px; color: #ccc; margin-bottom: 30px; }
+    .cta-btn { 
+      background: #e63946; /* RED button */
+      color: #fff; 
+      padding: 18px 40px; 
+      font-size: 18px; 
+      border: none; 
+      border-radius: 8px; 
+      cursor: pointer; 
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: all 0.3s;
+    }
+    .cta-btn:hover { background: #c1121f; transform: scale(1.05); }
+    .features { padding: 60px 20px; background: #111; }
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto; }
+    .feature-card { background: #1a1a1a; padding: 30px; border-radius: 10px; border-left: 4px solid #e63946; }
+    .feature-card h3 { color: #e63946; margin-bottom: 15px; }
+    .section-title { text-align: center; font-size: 32px; margin-bottom: 40px; }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <h1>Transform Your Business With <span class="highlight">Proven Strategies</span></h1>
+    <p class="subheadline">Join entrepreneurs who are scaling their businesses to new heights</p>
+    <button class="cta-btn">Get Started Now</button>
+  </section>
+  
+  <section class="features">
+    <h2 class="section-title">What You'll <span class="highlight">Learn</span></h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>Strategy</h3>
+        <p>Build a solid foundation for sustainable growth.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Marketing</h3>
+        <p>Attract your ideal clients consistently.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Sales</h3>
+        <p>Convert leads into paying customers.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+```
+
+**To use in GoHighLevel:**
+1. Go to Sites → Funnels → Create/Edit
+2. Add a "Custom Code" element or use the HTML editor
+3. Paste this code
+4. Customize text/images as needed
+
+**Red color codes used:**
+- Primary: `#e63946`
+- Hover: `#c1121f`
